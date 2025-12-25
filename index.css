@@ -7,6 +7,9 @@ body{
     font-size: large;
     font-style: initial;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .inp{
@@ -53,4 +56,12 @@ button:hover{
 button:active{
     color: rgb(27, 1, 1);
     background: linear-gradient(rgb(126, 229, 236), white);
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30;
 }
