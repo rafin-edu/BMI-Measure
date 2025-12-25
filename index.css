@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(rgb(126, 229, 236), white);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style: initial;
+    font-weight: 600;
+}
+
+.inp{
+    border-radius: 4px;
+    width: 100px;
+    height: 20px;
+    border-color: blue;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+
+}
+.inp:hover{
+
+    border-color: black;
+    box-shadow: none;
+    height:25px;
+    width:108px
+    
+}
+
+button{
+    text-align: center;
+    margin-left: auto;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: large;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    float: left;
+
+}
+button:hover{
+    height: 40px;
+    width: 100px;
+    opacity: 0.7;
+    transition: opacity 1s;
+    color: rgb(245, 216, 216);
+    box-shadow: 3px 3px 7px rgb(53, 35, 35);
+}
+
+button:active{
+    color: rgb(27, 1, 1);
+    background: linear-gradient(rgb(126, 229, 236), white);
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A BMI measure website. For all ages">
+    <title>BMI Measure</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    <section>
+        <label for="age">Enter your Weight:</label>
+        <input type="number" name="num" id="num" class="inp" required min="1" max="120"><br><br>
+
+        <label for="height">Enter Your height (feet): </label>
+        <input type="number" class="inp" id="feet" max="8" min="0" required><br><br>
+
+        <label for="height">Enter Your height (inch): </label>
+        <input type="number" class="inp" id="inch" max="12" min="0" required><br><br>
+
+       
+
+        <div class="butter">
+            <button class="submit" id="submit">Check</button>
+        </div><br><br>
+        
+
+        <h3 id="h3"></h3>
+
+
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
